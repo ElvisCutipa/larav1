@@ -21,7 +21,7 @@ class PaginaController extends Controller
     {
         return view('habilidades');
     }
-
+    // Hito: Control de flujo y optimización de memoria para Eloquent ORM.
     public function materias()
     {
         // Recupera todas las materias de la Base de Datos
